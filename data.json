@@ -1,0 +1,28 @@
+{
+  "pets": [
+    { "id": 1, "name": "Buddy", "type": "Dog", "breed": "Golden Retriever", "age": 3, "status": "Available", "location": "Mumbai", "description": "Friendly and energetic dog looking for a loving home" },
+    { "id": 2, "name": "Whiskers", "type": "Cat", "breed": "Persian", "age": 2, "status": "Adopted", "location": "Delhi", "description": "Calm and affectionate cat, great with children" },
+    { "id": 3, "name": "Charlie", "type": "Dog", "breed": "Labrador", "age": 1, "status": "Available", "location": "Bangalore", "description": "Young and playful puppy, needs training" },
+    { "id": 4, "name": "Mittens", "type": "Cat", "breed": "Siamese", "age": 4, "status": "Available", "location": "Chennai", "description": "Independent cat, perfect for busy professionals" },
+    { "id": 5, "name": "Rocky", "type": "Dog", "breed": "German Shepherd", "age": 5, "status": "Available", "location": "Pune", "description": "Well-trained guard dog, loyal and protective" },
+    { "id": 6, "name": "Luna", "type": "Cat", "breed": "Maine Coon", "age": 3, "status": "Available", "location": "Hyderabad", "description": "Large and gentle cat, loves to cuddle" },
+    { "id": 7, "name": "Max", "type": "Dog", "breed": "Beagle", "age": 2, "status": "Foster Care", "location": "Kolkata", "description": "Recovering from injury, needs temporary home" },
+    { "id": 8, "name": "Shadow", "type": "Cat", "breed": "Black Cat", "age": 1, "status": "Available", "location": "Ahmedabad", "description": "Playful kitten, loves toys and attention" },
+    { "id": 9, "name": "Bella", "type": "Dog", "breed": "Poodle", "age": 4, "status": "Available", "location": "Jaipur", "description": "Hypoallergenic breed, great for families with allergies" },
+    { "id": 10, "name": "Smokey", "type": "Cat", "breed": "British Shorthair", "age": 6, "status": "Available", "location": "Lucknow", "description": "Calm senior cat, prefers quiet environment" }
+  ],
+  "volunteers": [
+    { "id": 1, "name": "Priya Sharma", "role": "Caretaker", "experience": 3, "location": "Mumbai", "contact": "priya@petcare.org" },
+    { "id": 2, "name": "Rahul Kumar", "role": "Veterinarian", "experience": 8, "location": "Delhi", "contact": "rahul@petcare.org" },
+    { "id": 3, "name": "Anita Singh", "role": "Adoption Coordinator", "experience": 5, "location": "Bangalore", "contact": "anita@petcare.org" },
+    { "id": 4, "name": "Vikash Gupta", "role": "Fundraiser", "experience": 2, "location": "Chennai", "contact": "vikash@petcare.org" },
+    { "id": 5, "name": "Meera Patel", "role": "Transport Coordinator", "experience": 4, "location": "Pune", "contact": "meera@petcare.org" }
+  ],
+  "donations": [
+    { "id": 1, "donorName": "Anonymous", "amount": 5000, "type": "Food", "date": "2024-01-15", "purpose": "Monthly food supplies" },
+    { "id": 2, "donorName": "Ravi Mehta", "amount": 10000, "type": "Medical", "date": "2024-01-20", "purpose": "Emergency medical fund" },
+    { "id": 3, "donorName": "Corporate Sponsor ABC", "amount": 25000, "type": "General", "date": "2024-01-25", "purpose": "Shelter maintenance" },
+    { "id": 4, "donorName": "Sarah Johnson", "amount": 3000, "type": "Toys", "date": "2024-02-01", "purpose": "Pet toys and enrichment" },
+    { "id": 5, "donorName": "Local Community Group", "amount": 8000, "type": "Medical", "date": "2024-02-05", "purpose": "Vaccination drive" }
+  ]
+}

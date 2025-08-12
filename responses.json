@@ -1,0 +1,19 @@
+{
+  "service_requests": [
+    {
+      "id": 1,
+      "name": "ANGEL BLESSY",
+      "email": "angelblessy43@gmail.com",
+      "phone": "9341376855",
+      "services": [
+        "Trimming"
+      ],
+      "adoptionPreference": "Male",
+      "preferredDate": "2025-08-13",
+      "preferredTime": "21:02",
+      "contactMethod": "Phone",
+      "status": "Pending",
+      "submittedAt": "2025-08-11T15:31:03.754Z"
+    }
+  ]
+}
