@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pawtner Hope Foundation - Pet Care & Adoption in Bengaluru</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐾</text></svg>" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link
       rel="stylesheet"
@@ -529,9 +530,7 @@
           const petCards = (posts.data || [])
             .map((post, index) => {
               const pet = petData[index];
-              const petName =
-                post.title.split(" ")[0].charAt(0).toUpperCase() +
-                post.title.split(" ")[0].slice(1, 6);
+              const petName = post.name || `Pet ${index + 1}`;
 
               return `
                         <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
