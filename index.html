@@ -526,7 +526,7 @@
           ];
 
           // Create pet cards from API data
-          const petCards = posts
+          const petCards = (posts.data || [])
             .map((post, index) => {
               const pet = petData[index];
               const petName =
